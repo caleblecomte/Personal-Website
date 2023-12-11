@@ -1,4 +1,3 @@
-const STAR_COLOR = 'white';
 const STAR_SIZE = 3;
 const STAR_MIN_SCALE = 0.5;
 const OVERFLOW_THRESHOLD = 50;
@@ -29,6 +28,14 @@ canvas.onmousemove = onMouseMove;
 canvas.ontouchmove = onTouchMove;
 canvas.ontouchend = onMouseLeave;
 document.onmouseleave = onMouseLeave;
+
+function disableButton(){
+
+    canvas = document.getElementById("canvas");
+    canvas.remove();
+
+}
+
 
 function generate() {
 

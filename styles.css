@@ -169,12 +169,20 @@ a:hover {
     transform-origin: bottom;
   }
   
-  .button:hover span:nth-child(4 ) {
+  .button:hover span:nth-child(4) {
     bottom: 50%;
   }
 
-.offcanvas-body {
+.blue {
     display: grid;
-    border-top: 1px solid white;
+    border-top: 1px solid #1e9bff;
+    box-shadow: 0 0 10px #1e9bff;
+    color: white;
+}
+
+.orange {
+  display: grid;
+    border-top: 1px solid #ff921e;
+    box-shadow: 0 0 10px #ff921e;
     color: white;
 }
