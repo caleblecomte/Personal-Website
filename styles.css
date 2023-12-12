@@ -232,3 +232,16 @@ a:hover {
 #offcanvasContact ::-webkit-scrollbar-thumb {
     background: #ff921e;
 }
+
+#send {
+ margin:auto;
+}
+
+#message {
+  word-wrap: break-word;
+  min-width: 700px;
+}
+
+.form input::placeholder {
+  color: white;
+}

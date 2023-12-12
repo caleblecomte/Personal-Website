@@ -43,37 +43,25 @@
             Projects
         </span>
 
-        <span class="button" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasContact"
-            aria-controls="offcanvasBottom" style="--color:#ff921e;">
+        <span type="button" class="button" data-bs-toggle="modal" data-bs-target=".bd-example-modal-sm" style="--color:#ff921e;">
             <span></span>
             <span></span>
             <span></span>
             <span></span>
             Contact
         </span>
-
-
-        <!-- Contact Offcanvas  -->
-        <div class="offcanvas offcanvas-bottom bg-transparent" style="--bs-offcanvas-height: 50vh;" tabindex="-1"
-            id="offcanvasContact" aria-labelledby="offcanvasBottomLabel">
-            <div class="offcanvas-header d-flex justify-content-end orange">
-                        <button type="button" class="btn-close text-reset bg-danger" data-bs-dismiss="offcanvas"
-                            aria-label="Close"></button>
+  
+        <!-- Small modal -->
+        <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-sm">
+            <div class="modal-content">
+            Test123 Hello world
             </div>
-            <div class="offcanvas-body small text-white justify-content-center">
-                <input class="form-control form-control-lg" type="text" placeholder="Your Email">
-                <input class="form-control form-control-lg" type="text" placeholder="Your Name">
-                <input class="form-control form-control-lg" type="text" placeholder="Subject">
-                <div class="d-flex">
-                    <input class="form-control form-control-lg" type="text" placeholder="Message">
-                    <div class="btn btn-primary">Send</div>
-                </div>
-            </div>
+        </div>
         </div>
 
         <!-- Info Offcanvas  -->
-        <div class="offcanvas offcanvas-bottom bg-transparent text-white" style="--bs-offcanvas-height: 70vh;"
-            tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
+        <div class="offcanvas offcanvas-bottom bg-transparent text-white" style="--bs-offcanvas-height: 70vh;" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
             <div class="offcanvas-header blue d-flex justify-content-end">
                 <button type="button" class="btn-close text-bg-danger" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
