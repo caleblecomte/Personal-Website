@@ -64,9 +64,6 @@ a:hover {
     padding: 5em;
 }
 
-.btn {
-    padding: 100px;
-}
 
 .button {
     position: relative;
@@ -227,10 +224,6 @@ a:hover {
     width: 2px;
     height: 25px;
   }
-}
-
-#offcanvasContact ::-webkit-scrollbar-thumb {
-    background: #ff921e;
 }
 
 #send {
